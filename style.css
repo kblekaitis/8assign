@@ -1,0 +1,422 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    background:#3CB371;
+}
+
+.container{
+    display:flex;
+    margin-top:30px;
+    cursor:pointer;
+    flex-wrap:wrap;
+    justify-content:center;
+    position:relative;
+    background:#3CB371;
+    max-width:1120px;
+    height:1270px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:20px;
+}
+
+/* Didžiojo formatavimas.  */
+.big-part{
+    display:inline-block;
+    position:relative;
+    max-width:60%;
+    max-height:55%;
+    background:white;
+    margin-top:10px;
+    right:19%;
+}
+
+.container .big-part img{
+    max-height:600px;
+    max-width:100%;
+    margin-bottom:10px;
+}
+
+.big-part h1,p{
+    margin-left:20px;
+}
+
+.big-part h1{
+    font-size:1.5em;
+}
+
+.big-paragraph {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.big-part .fourty-com {
+    position:absolute;
+    right:5%;
+}
+
+/* Mažesnio formatavimas. */
+.small-part{
+    position:absolute;
+    background:white;
+    max-width:36%;  
+    max-height:40%;
+    margin-top:10px;
+    right:1%;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+
+.small-part h1{
+    font-size:1.5em;
+    margin-bottom:10px;
+}
+
+.joe, .fourty-com{
+    opacity:0.7;
+    margin-top:20px;
+    display:inline-block;
+}
+
+.small-part img{
+    max-width:100%;
+}
+
+.small-paragraph{
+    margin-bottom:10px;
+    margin-right:20px;
+}
+
+.small-part h1{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.small-part .joe{
+    padding-bottom:20px;
+    padding-top:100px;
+}
+
+.small-part .fourty-com{
+    position:absolute;
+    right:5%;
+    padding-top:100px;
+}
+
+/* No-image div formatavimas. */
+.noimg{
+    position:absolute;
+    background:white;
+    top:42%;
+    right:1%;
+    max-width:36%;
+    max-height:14%;
+}
+
+.noimg h1{
+    margin-top:20px;
+    font-size:1.5em;
+    margin-left:15px;
+    margin-bottom:10px;
+    width:400px;
+}
+
+.noimg p{
+    margin-left:15px;
+    padding-bottom:40px;
+    padding-right:7px;
+}
+.noimg .joe{
+    padding-bottom:15px;
+    bottom:2%;
+}
+
+.noimg .fourty-com{
+    position:absolute;
+    right:3%;
+}
+
+/* Antro didelio formatavimas. */
+
+.big-part2{
+    display:inline-block;
+    position:relative;
+    max-width:60%;
+    max-height:43%;
+    background:white;
+    margin-top:20px;
+    right:19%;
+}
+
+.container .big-part2 img {
+    max-height: 71%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.big-part2 h1,p {
+    margin-left: 20px;
+}
+
+.big-part2 h1 {
+    font-size: 1.5em;
+}
+
+.big-paragraph {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.big-part2 .fourty-com {
+    position:absolute;
+    right:2%;
+}
+
+/* Antra be nuotraukos */
+
+.noimg2 {
+    position: absolute;
+    background: white;
+    top: 56%;
+    right: 1%;
+    max-width: 36%;
+    max-height: 14%;
+    margin-top:10px;
+}
+
+.noimg2 h1 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.noimg2 p {
+    margin-left: 15px;
+    padding-bottom: 40px;
+    padding-right: 7px;
+}
+
+.noimg2 .joe {
+    padding-bottom: 15px;
+}
+
+.noimg2 .fourty-com {
+    position: absolute;
+    right: 3%;
+}
+
+/* Trečia be nuotraukos */
+
+.noimg3 {
+    position: absolute;
+    background: white;
+    bottom: 15%;
+    right: 1%;
+    max-width: 36%;
+    max-height: 14%;
+    margin-top: 10px;
+}
+
+.noimg3 h1 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.noimg3 p {
+    margin-left: 15px;
+    padding-right: 7px;
+    padding-bottom:40px;
+}
+
+.noimg3 .joe {
+    padding-bottom: 15px;
+}
+
+.noimg3 .fourty-com {
+    position: absolute;
+    right: 3%;
+}
+
+/* Ketvirta be nuotraukos */
+
+.noimg4 {
+    position: absolute;
+    background: white;
+    right: 1%;
+    bottom:0.25%;
+    max-width: 36%;
+    max-height: 14%;
+    margin-top: 20px;
+}
+
+.noimg4 h1 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.noimg4 p {
+    margin-left: 15px;
+    padding-right: 7px;
+    padding-bottom: 40px;
+}
+
+.noimg4 .joe {
+    padding-bottom: 15px;
+}
+
+.noimg4 .fourty-com {
+    position: absolute;
+    right: 3%;
+}
+
+
+/* PRISITAIKYMAS */
+
+
+/* @media (max-width:320px){ */
+    /* Konteineris */
+    /* .container {
+        display: flex;
+        margin-top: 30px;
+        cursor: pointer;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background: #3CB371;
+        max-width: 100%;
+        margin-top: 20px;
+    } */
+    
+    /* Didžiojo formatavimas.  */
+    /* .big-part {
+        display: block;
+        position: relative;
+        max-width: 90%;
+        max-height: 55%;
+        background: white;
+        margin-top: 10px;
+    } */
+    
+    /* .container .big-part img {
+        max-height: 600px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    } */
+    
+    /* .big-part h1,
+    p {
+        margin-left: 20px;
+    } */
+    
+    /* .big-part h1 {
+        font-size: 1.5em;
+    } */
+    
+    /* .big-paragraph {
+        margin-bottom: 10px;
+        margin-right: 20px;
+    } */
+    
+    /* .big-part .fourty-com {
+        position: absolute;
+        right: 5%;
+    } */
+    
+    /* Mažesnio formatavimas. */
+    /* .small-part {
+        display:block;
+        position: absolute;
+        background: white;
+        max-width: 36%;
+        max-height: 40%;
+        margin-top: 10px;
+        right: 1%;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .small-part h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    .joe,
+    .fourty-com {
+        opacity: 0.7;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+    .small-part img {
+        max-width: 100%;
+    }
+    
+    .small-paragraph {
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    
+    .small-part h1 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .small-part .joe {
+        padding-bottom: 20px;
+        padding-top: 100px;
+    }
+    
+    .small-part .fourty-com {
+        position: absolute;
+        right: 5%;
+        padding-top: 100px;
+    } */
+
+    /* Antras didelis */
+    /* .big-part2 {
+        display: inline-block;
+        position: relative;
+        max-width: 60%;
+        max-height: 43%;
+        background: white;
+        margin-top: 20px;
+        right: 19%;
+    }
+    
+    .container .big-part2 img {
+        max-height: 71%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .big-part2 h1,
+    p {
+        margin-left: 20px;
+    }
+    
+    .big-part2 h1 {
+        font-size: 1.5em;
+    }
+    
+    .big-paragraph {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .big-part2 .fourty-com {
+        position: absolute;
+        right: 2%;
+    }
+} */
